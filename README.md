@@ -1,72 +1,93 @@
-# GoNature
+GoNature
 
-GoNature is a user-friendly park management app built using Java, CSS, JavaFX, and client-server architecture. It incorporates a SQL database for seamless reservation data management.
+GoNature is a comprehensive park management system designed to streamline park operations through an intuitive client-server application. The system is built using Java, JavaFX, CSS, and SQL, ensuring smooth and efficient park reservation and visitor management.
 
-## Centralized Park Managing System
+Key Features
 
-This project is built with a FullStack approach. We have a remote server managing a database called GoNature. We also have several types of clients that can connect: Clients, Park employees, Service employees, Guides, Park managers, and Department managers.
+General
 
-## Features
+🔑 User Authentication – Secure login for all users.
 
-### General
-- User authentication
-- Real-time data synchronization between client and server
-- SMS notifications for reservation approvals and reminders
+🔄 Real-time Data Sync – Ensures consistency between client and server.
 
-### Clients
-- Log in with ID
-- View past reservations
-- Make new reservations
-- Join waiting list if no available space
-- Update or cancel existing reservations
+📩 Automated SMS Notifications – For reservation approvals and reminders.
 
-### Guides
-- Initially not defined as guide users in the DB
-- Need approval from a service employee
-- Log in with user ID and password
-- View past reservations
-- Make new reservations
-- Join waiting list if no available space
-- Update or cancel existing reservations
+User Roles & Functionalities
 
-### Park Employees
-- Log in with user ID and password
-- Check the number of visitors currently in the park
-- Make new reservations for clients or guides (group reservations)
-- Update the number of visitors that have arrived from a reservation
+Clients
 
-### Service Employees
-- Log in with user ID and password
-- Approve guide user permissions
+Log in and view past reservations.
 
-### Park Managers
-- Log in with user ID and password
-- Request changes to dwell time or maximum capacity from the department manager
-- Generate usage reports showing dates and hours the park wasn't at full capacity
-- Generate total reports showing the number of group and individual visitors for a selected month
+Make new reservations or join a waiting list.
 
-### Department Managers
-- Log in with user ID and password
-- View and approve/reject park manager requests for changes to dwell time or maximum capacity
-- View visit reports for selected dates
-- View cancellation reports showing the number of order cancellations and their distribution
+Modify or cancel existing reservations.
 
-## Technologies Used
-- Java
-- JavaFX
-- CSS
-- SQL
-- Client-server architecture
+Guides
 
-## Installation
+Require approval from a service employee before using the system.
 
-### Prerequisites
-- Java Development Kit (JDK)
-- JavaFX
-- SQL Database (MySQL, PostgreSQL, etc.)
-- Git
+Log in, manage reservations, and check availability.
 
-### Steps
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/ShadiAbureesh/GoNature.git
+Park Employees
+
+Monitor visitor count within the park.
+
+Create reservations for clients or groups.
+
+Update visitor arrivals for reservations.
+
+Service Employees
+
+Approve guide user access requests.
+
+Park Managers
+
+Request changes to park capacity and visit duration.
+
+Generate park usage reports.
+
+Analyze visitor trends and generate monthly reports.
+
+Department Managers
+
+Approve or reject park manager requests.
+
+Access park usage, cancellation, and visit reports.
+
+Technologies Used
+
+Java – Backend logic and server implementation.
+
+JavaFX – GUI for seamless user experience.
+
+CSS – Styling and UI enhancements.
+
+SQL – Database management.
+
+Client-Server Architecture – Ensures scalable operations.
+
+Installation & Setup
+
+Prerequisites
+
+Java Development Kit (JDK)
+
+JavaFX Framework
+
+SQL Database (MySQL, PostgreSQL, etc.)
+
+Git
+
+Installation Steps
+
+Clone the repository:
+
+git clone https://github.com/yourusername/GoNature.git
+
+Navigate to the project directory:
+
+cd GoNature
+
+Configure the database with the appropriate schema and credentials.
+
+Run the application using your Java environment.
