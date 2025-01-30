@@ -82,7 +82,7 @@ Installation Steps
 
 Clone the repository:
 
-git clone https://github.com/yourusername/GoNature.git
+git clone https://github.com/majdsalameh1211/GoNature.git
 
 Navigate to the project directory:
 
