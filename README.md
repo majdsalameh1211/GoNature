@@ -2,6 +2,8 @@ GoNature
 
 GoNature is a comprehensive park management system designed to streamline park operations through an intuitive client-server application. The system is built using Java, JavaFX, CSS, and SQL, ensuring smooth and efficient park reservation and visitor management.
 
+
+
 Key Features
 
 General
@@ -12,7 +14,12 @@ General
 
 📩 Automated SMS Notifications – For reservation approvals and reminders.
 
+
+
+
 User Roles & Functionalities
+
+
 
 Clients
 
@@ -22,11 +29,17 @@ Make new reservations or join a waiting list.
 
 Modify or cancel existing reservations.
 
+
+
+
 Guides
 
 Require approval from a service employee before using the system.
 
 Log in, manage reservations, and check availability.
+
+
+
 
 Park Employees
 
@@ -36,9 +49,17 @@ Create reservations for clients or groups.
 
 Update visitor arrivals for reservations.
 
+
+
+
+
 Service Employees
 
 Approve guide user access requests.
+
+
+
+
 
 Park Managers
 
@@ -48,13 +69,22 @@ Generate park usage reports.
 
 Analyze visitor trends and generate monthly reports.
 
+
+
+
+
 Department Managers
 
 Approve or reject park manager requests.
 
 Access park usage, cancellation, and visit reports.
 
-Technologies Used
+
+
+
+
+
+Technologies Used :
 
 Java – Backend logic and server implementation.
 
@@ -78,7 +108,10 @@ SQL Database (MySQL, PostgreSQL, etc.)
 
 Git
 
-Installation Steps
+
+
+
+Installation Steps :
 
 Clone the repository:
 
